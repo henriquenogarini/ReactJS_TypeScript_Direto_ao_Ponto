@@ -3,6 +3,10 @@ import ContadorInvervalo from './components/ContadorInvervalo'
 import Counter from './components/Counter'
 import Greeting from './components/Greeting'
 import TextInput from './components/TextInput'
+import FormularioLogin from './components/FormularioLogin'
+import ListaDeCompras from './components/ListaDeCompras'
+import Contador from './components/Contador'
+import UseLocalStorage from './components/UseLocalStorage'
 
 function App() {
   return (
@@ -16,6 +20,12 @@ function App() {
     <TextInput />
     {/* 04 - Custom hooks com TS */}
     <ContadorInvervalo />
+    {/* 05 - Exercícios TS */}
+    <FormularioLogin />
+    <ListaDeCompras />
+    <UseLocalStorage />
+    {/* 06 - useReducer com TS */}
+    <Contador />
     </>
   )
 }

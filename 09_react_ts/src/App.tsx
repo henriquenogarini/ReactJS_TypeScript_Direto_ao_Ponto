@@ -7,6 +7,9 @@ import FormularioLogin from './components/FormularioLogin'
 import ListaDeCompras from './components/ListaDeCompras'
 import Contador from './components/Contador'
 import UseLocalStorage from './components/UseLocalStorage'
+import { TemaProvider } from './contexts/TemaContext'
+import BarraFerramentas from './components/BarraFerramentas'
+import ExibirPostagens from './components/ExibirPostagens'
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
     <UseLocalStorage />
     {/* 06 - useReducer com TS */}
     <Contador />
+    {/* 07 - Context API com TS */}
+    <TemaProvider>
+      <BarraFerramentas />
+    </TemaProvider>
+    {/* 08 - Requisições de APIs com Axios e TS */}
+    <ExibirPostagens />
     </>
   )
 }
